@@ -1,0 +1,10 @@
+name: delta-trust-region-ssm
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.12.3
+  - pip
+  - pip:
+      - -r requirements.txt

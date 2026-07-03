@@ -1,0 +1,347 @@
+{
+  "allowed_nonsemantic_differences": [
+    {
+      "field": "cudnn_benchmark_requested",
+      "resolution": "deterministic mode forced cudnn_benchmark_effective=false in every run",
+      "task": "listops",
+      "values": [
+        false,
+        true
+      ],
+      "variant": "dtr"
+    },
+    {
+      "field": "cudnn_benchmark_requested",
+      "resolution": "deterministic mode forced cudnn_benchmark_effective=false in every run",
+      "task": "listops",
+      "values": [
+        false,
+        true
+      ],
+      "variant": "dtrl"
+    },
+    {
+      "field": "cudnn_benchmark_requested",
+      "resolution": "deterministic mode forced cudnn_benchmark_effective=false in every run",
+      "task": "text",
+      "values": [
+        false,
+        true
+      ],
+      "variant": "base"
+    },
+    {
+      "field": "cudnn_benchmark_requested",
+      "resolution": "deterministic mode forced cudnn_benchmark_effective=false in every run",
+      "task": "text",
+      "values": [
+        false,
+        true
+      ],
+      "variant": "fixed_delta"
+    },
+    {
+      "field": "cudnn_benchmark_requested",
+      "resolution": "deterministic mode forced cudnn_benchmark_effective=false in every run",
+      "task": "text",
+      "values": [
+        false,
+        true
+      ],
+      "variant": "dtr"
+    },
+    {
+      "field": "cudnn_benchmark_requested",
+      "resolution": "deterministic mode forced cudnn_benchmark_effective=false in every run",
+      "task": "text",
+      "values": [
+        false,
+        true
+      ],
+      "variant": "dtrl"
+    },
+    {
+      "field": "cudnn_benchmark_requested",
+      "resolution": "deterministic mode forced cudnn_benchmark_effective=false in every run",
+      "task": "pathfinder",
+      "values": [
+        false,
+        true
+      ],
+      "variant": "base"
+    },
+    {
+      "field": "cudnn_benchmark_requested",
+      "resolution": "deterministic mode forced cudnn_benchmark_effective=false in every run",
+      "task": "pathfinder",
+      "values": [
+        false,
+        true
+      ],
+      "variant": "fixed_delta"
+    },
+    {
+      "field": "cudnn_benchmark_requested",
+      "resolution": "deterministic mode forced cudnn_benchmark_effective=false in every run",
+      "task": "pathfinder",
+      "values": [
+        false,
+        true
+      ],
+      "variant": "dtr"
+    },
+    {
+      "field": "cudnn_benchmark_requested",
+      "resolution": "deterministic mode forced cudnn_benchmark_effective=false in every run",
+      "task": "pathfinder",
+      "values": [
+        false,
+        true
+      ],
+      "variant": "dtrl"
+    }
+  ],
+  "core_run_count": 60,
+  "environment_counts": [
+    {
+      "count": 60,
+      "cuda_version": "12.8",
+      "gpu_name": "NVIDIA GeForce RTX 4090",
+      "precision": "bf16",
+      "torch_version": "2.10.0+cu128"
+    }
+  ],
+  "group_checks": [
+    {
+      "hash_cardinality": {
+        "effective_runtime_material": 1,
+        "model_config": 1,
+        "optimizer_and_budget": 1,
+        "task_config": 1,
+        "variant_config": 1
+      },
+      "material_parity": true,
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "task": "listops",
+      "variant": "base"
+    },
+    {
+      "hash_cardinality": {
+        "effective_runtime_material": 1,
+        "model_config": 1,
+        "optimizer_and_budget": 1,
+        "task_config": 1,
+        "variant_config": 1
+      },
+      "material_parity": true,
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "task": "listops",
+      "variant": "fixed_delta"
+    },
+    {
+      "hash_cardinality": {
+        "effective_runtime_material": 1,
+        "model_config": 1,
+        "optimizer_and_budget": 1,
+        "task_config": 1,
+        "variant_config": 1
+      },
+      "material_parity": true,
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "task": "listops",
+      "variant": "dtr"
+    },
+    {
+      "hash_cardinality": {
+        "effective_runtime_material": 1,
+        "model_config": 1,
+        "optimizer_and_budget": 1,
+        "task_config": 1,
+        "variant_config": 1
+      },
+      "material_parity": true,
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "task": "listops",
+      "variant": "dtrl"
+    },
+    {
+      "hash_cardinality": {
+        "effective_runtime_material": 1,
+        "model_config": 1,
+        "optimizer_and_budget": 1,
+        "task_config": 1,
+        "variant_config": 1
+      },
+      "material_parity": true,
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "task": "text",
+      "variant": "base"
+    },
+    {
+      "hash_cardinality": {
+        "effective_runtime_material": 1,
+        "model_config": 1,
+        "optimizer_and_budget": 1,
+        "task_config": 1,
+        "variant_config": 1
+      },
+      "material_parity": true,
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "task": "text",
+      "variant": "fixed_delta"
+    },
+    {
+      "hash_cardinality": {
+        "effective_runtime_material": 1,
+        "model_config": 1,
+        "optimizer_and_budget": 1,
+        "task_config": 1,
+        "variant_config": 1
+      },
+      "material_parity": true,
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "task": "text",
+      "variant": "dtr"
+    },
+    {
+      "hash_cardinality": {
+        "effective_runtime_material": 1,
+        "model_config": 1,
+        "optimizer_and_budget": 1,
+        "task_config": 1,
+        "variant_config": 1
+      },
+      "material_parity": true,
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "task": "text",
+      "variant": "dtrl"
+    },
+    {
+      "hash_cardinality": {
+        "effective_runtime_material": 1,
+        "model_config": 1,
+        "optimizer_and_budget": 1,
+        "task_config": 1,
+        "variant_config": 1
+      },
+      "material_parity": true,
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "task": "pathfinder",
+      "variant": "base"
+    },
+    {
+      "hash_cardinality": {
+        "effective_runtime_material": 1,
+        "model_config": 1,
+        "optimizer_and_budget": 1,
+        "task_config": 1,
+        "variant_config": 1
+      },
+      "material_parity": true,
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "task": "pathfinder",
+      "variant": "fixed_delta"
+    },
+    {
+      "hash_cardinality": {
+        "effective_runtime_material": 1,
+        "model_config": 1,
+        "optimizer_and_budget": 1,
+        "task_config": 1,
+        "variant_config": 1
+      },
+      "material_parity": true,
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "task": "pathfinder",
+      "variant": "dtr"
+    },
+    {
+      "hash_cardinality": {
+        "effective_runtime_material": 1,
+        "model_config": 1,
+        "optimizer_and_budget": 1,
+        "task_config": 1,
+        "variant_config": 1
+      },
+      "material_parity": true,
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "task": "pathfinder",
+      "variant": "dtrl"
+    }
+  ],
+  "material_failures": [],
+  "ok": true,
+  "version": 1
+}

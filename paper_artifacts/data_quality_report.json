@@ -1,0 +1,350 @@
+{
+  "checksum_failures": [],
+  "core_cell_count": 60,
+  "duplicate_core_cells": [],
+  "errors": [],
+  "ok": true,
+  "snapshot_content_sha256": "dfa648a6c5359b9c3d1f2fd0712baabf0267849dbf590c8eb266524aed50fef2",
+  "synthetic_core_cells": [],
+  "tasks": {
+    "listops": {
+      "cross_split_overlap": {
+        "train_test": {
+          "conflicting_label_count": 0,
+          "overlap_count": 0,
+          "overlap_ratio_min_split": 0.0
+        },
+        "train_val": {
+          "conflicting_label_count": 0,
+          "overlap_count": 0,
+          "overlap_ratio_min_split": 0.0
+        },
+        "val_test": {
+          "conflicting_label_count": 0,
+          "overlap_count": 0,
+          "overlap_ratio_min_split": 0.0
+        }
+      },
+      "official_source_only": true,
+      "preprocessing": {
+        "deterministic": true,
+        "padding_token": 0,
+        "sequence_length": 512,
+        "truncation_side": "right",
+        "version": "v1"
+      },
+      "semantic_match_across_sources": true,
+      "semantic_split_sha256": {
+        "test": [
+          "f2b11391a0f963073839cd55de5beb51cd724d8790679fd98a52619dfa2146ce"
+        ],
+        "train": [
+          "8d265b668a8a0e1e163cfac52019efcc3868a50dbf581b98abe3cd75bfd09f78"
+        ],
+        "val": [
+          "b51ae90731dd7ff733b25949c49816aac8b263f3c5ed2103a7e16d2abbaee2c2"
+        ]
+      },
+      "serialized_fingerprint_ids": [
+        "128a6727209abbd5bbdf8e17f07e80dc899c637bad3cca41abc7c494f528373a"
+      ],
+      "splits": {
+        "test": {
+          "duplicate_ratio": 0.0,
+          "duplicate_sequences": 0,
+          "label_distribution": {
+            "0": 281,
+            "1": 215,
+            "2": 167,
+            "3": 174,
+            "4": 209,
+            "5": 172,
+            "6": 174,
+            "7": 147,
+            "8": 204,
+            "9": 257
+          },
+          "num_samples": 2000,
+          "sequence_length": 512,
+          "sequence_length_statistics": {
+            "max": 512.0,
+            "mean": 512.0,
+            "min": 512.0,
+            "p50": 512.0,
+            "p95": 512.0
+          },
+          "serialized_sha256": "0327799793f88d00f26839f715b636ac841a3538b4705d22f3912ec8535db9c3",
+          "source_sha256": "c533a43603afffd404e6489a7370dc0aaaa54e25aff3cf13f3f334366c7f1b7d",
+          "unique_sequences": 2000
+        },
+        "train": {
+          "duplicate_ratio": 0.0,
+          "duplicate_sequences": 0,
+          "label_distribution": {
+            "0": 13776,
+            "1": 9435,
+            "2": 8265,
+            "3": 8629,
+            "4": 8813,
+            "5": 8565,
+            "6": 7839,
+            "7": 7777,
+            "8": 9106,
+            "9": 13795
+          },
+          "num_samples": 96000,
+          "sequence_length": 512,
+          "sequence_length_statistics": {
+            "max": 512.0,
+            "mean": 512.0,
+            "min": 512.0,
+            "p50": 512.0,
+            "p95": 512.0
+          },
+          "serialized_sha256": "db7ab1992ed1889883cabc23c691edb1f9f4332ca8c8e58f5815218bb90044dc",
+          "source_sha256": "5ac70ffc2bc867eb9814c4e5e2e540297d89260d3366f3800a845addd3450587",
+          "unique_sequences": 96000
+        },
+        "val": {
+          "duplicate_ratio": 0.0,
+          "duplicate_sequences": 0,
+          "label_distribution": {
+            "0": 285,
+            "1": 197,
+            "2": 179,
+            "3": 154,
+            "4": 180,
+            "5": 196,
+            "6": 159,
+            "7": 188,
+            "8": 183,
+            "9": 279
+          },
+          "num_samples": 2000,
+          "sequence_length": 512,
+          "sequence_length_statistics": {
+            "max": 512.0,
+            "mean": 512.0,
+            "min": 512.0,
+            "p50": 512.0,
+            "p95": 512.0
+          },
+          "serialized_sha256": "559bb0c78709ecdc44cbf077fdd42abe303539931d67bd03726cee65cfbeec20",
+          "source_sha256": "4b6c0cc8b5826e18f07dc9bd1e85e2b9a8f84bc2682c67aa5456d7207531679f",
+          "unique_sequences": 2000
+        }
+      }
+    },
+    "pathfinder": {
+      "cross_split_overlap": {
+        "train_test": {
+          "conflicting_label_count": 0,
+          "overlap_count": 0,
+          "overlap_ratio_min_split": 0.0
+        },
+        "train_val": {
+          "conflicting_label_count": 0,
+          "overlap_count": 0,
+          "overlap_ratio_min_split": 0.0
+        },
+        "val_test": {
+          "conflicting_label_count": 0,
+          "overlap_count": 0,
+          "overlap_ratio_min_split": 0.0
+        }
+      },
+      "official_source_only": true,
+      "preprocessing": {
+        "deterministic": true,
+        "padding_token": 0,
+        "sequence_length": 1024,
+        "truncation_side": "right",
+        "version": "v1"
+      },
+      "semantic_match_across_sources": true,
+      "semantic_split_sha256": {
+        "test": [
+          "f5f0f90d2bb8b59ea062f9b48571e8c9aa93a6120f45501c2c27b76a2ddfcbc3"
+        ],
+        "train": [
+          "2ed1ab563411867165737fae73286c0b4acb1972f8040b2e49a246a84f3f0a8b"
+        ],
+        "val": [
+          "dd593dfc17cad12786642b5ca3e3b6e7598e204d818364e6f22fc03aae9a12b3"
+        ]
+      },
+      "serialized_fingerprint_ids": [
+        "30cab71114023f1b7ac335c7f9989c9f8878f4038f0706991d1cac920d77c6c7",
+        "b9981cc0e9dad228991cd5541ede3b300c2b7b561e12968c11708b035c66db02"
+      ],
+      "splits": {
+        "test": {
+          "duplicate_ratio": 0.0,
+          "duplicate_sequences": 0,
+          "label_distribution": {
+            "0": 10054,
+            "1": 9946
+          },
+          "num_samples": 20000,
+          "sequence_length": 1024,
+          "sequence_length_statistics": {
+            "max": 1024.0,
+            "mean": 1024.0,
+            "min": 1024.0,
+            "p50": 1024.0,
+            "p95": 1024.0
+          },
+          "serialized_sha256": "9d9dd3b464bd74bac2a341d087e8be69ed094056e598884b8d02fd2b8464c3fd",
+          "source_sha256": "3b10a2b55136bc0441338c989699318a513b1ad6da3e14dd147b975b350d5921",
+          "unique_sequences": 20000
+        },
+        "train": {
+          "duplicate_ratio": 0.0,
+          "duplicate_sequences": 0,
+          "label_distribution": {
+            "0": 79976,
+            "1": 80024
+          },
+          "num_samples": 160000,
+          "sequence_length": 1024,
+          "sequence_length_statistics": {
+            "max": 1024.0,
+            "mean": 1024.0,
+            "min": 1024.0,
+            "p50": 1024.0,
+            "p95": 1024.0
+          },
+          "serialized_sha256": "bba3095a9968dac9395880f69cfa2c85233bf141f038921b5b4fcd9284f0f0d4",
+          "source_sha256": "fbbbf4c6d61782c0932b2d57e45f5061b01958cb4f0a31571d78150239b65962",
+          "unique_sequences": 160000
+        },
+        "val": {
+          "duplicate_ratio": 0.0,
+          "duplicate_sequences": 0,
+          "label_distribution": {
+            "0": 9920,
+            "1": 10080
+          },
+          "num_samples": 20000,
+          "sequence_length": 1024,
+          "sequence_length_statistics": {
+            "max": 1024.0,
+            "mean": 1024.0,
+            "min": 1024.0,
+            "p50": 1024.0,
+            "p95": 1024.0
+          },
+          "serialized_sha256": "07539e6dcd12b372553f86061fa779d7c704b1d2e8cb1cca2fef8fa2f65f497a",
+          "source_sha256": "28cb9d60f426e2efde6ed543ed70165d4fc7af16e2dd4ca03dd98f4f1b9eef17",
+          "unique_sequences": 20000
+        }
+      }
+    },
+    "text": {
+      "cross_split_overlap": {
+        "train_test": {
+          "conflicting_label_count": 0,
+          "overlap_count": 93,
+          "overlap_ratio_min_split": 0.00465
+        },
+        "train_val": {
+          "conflicting_label_count": 0,
+          "overlap_count": 38,
+          "overlap_ratio_min_split": 0.0076
+        },
+        "val_test": {
+          "conflicting_label_count": 0,
+          "overlap_count": 30,
+          "overlap_ratio_min_split": 0.006
+        }
+      },
+      "official_source_only": true,
+      "preprocessing": {
+        "deterministic": true,
+        "padding_token": 0,
+        "sequence_length": 1024,
+        "truncation_side": "right",
+        "version": "v1"
+      },
+      "semantic_match_across_sources": true,
+      "semantic_split_sha256": {
+        "test": [
+          "7cbb5cf492b9962dd45c44429ad93d7b427c661ff668e1c20efe09a04537ba7d"
+        ],
+        "train": [
+          "8d8171117e1c624cd84a4b12efe09a52937b6c5c084c9c2d3dd28fb67ee92948"
+        ],
+        "val": [
+          "fa0bf9508a70581b0faf2b8ae44e051053ccdb2495bcf5d5c4c4e1cab7a3dbbe"
+        ]
+      },
+      "serialized_fingerprint_ids": [
+        "6d91b53307bb1728733989d8c9f03ce13f76c87269f9a767d106dd61a895e794",
+        "a8121f0761cdbd38f95d019c89c2eed5b685493e45277123d1b588073bfd5b59"
+      ],
+      "splits": {
+        "test": {
+          "duplicate_ratio": 0.00812,
+          "duplicate_sequences": 203,
+          "label_distribution": {
+            "0": 12500,
+            "1": 12500
+          },
+          "num_samples": 25000,
+          "sequence_length": 1024,
+          "sequence_length_statistics": {
+            "max": 1024.0,
+            "mean": 842.2669067382812,
+            "min": 32.0,
+            "p50": 963.0,
+            "p95": 1024.0
+          },
+          "serialized_sha256": "f66aa0342a4fd43d3d8bc3a8f1f1077f315081209ebc9b18ef576ebf5577dc53",
+          "source_sha256": "d6a51534bc9bb403dca8c6bbbb19a61236c08563ecd93d8bbcd2a9742df012e5",
+          "unique_sequences": 24797
+        },
+        "train": {
+          "duplicate_ratio": 0.0029,
+          "duplicate_sequences": 58,
+          "label_distribution": {
+            "0": 10016,
+            "1": 9984
+          },
+          "num_samples": 20000,
+          "sequence_length": 1024,
+          "sequence_length_statistics": {
+            "max": 1024.0,
+            "mean": 849.2572021484375,
+            "min": 52.0,
+            "p50": 980.0,
+            "p95": 1024.0
+          },
+          "serialized_sha256": "32cc365cd9889dcba482e93831afb5fcde61b48e35d47142f518ca4c189b178d",
+          "source_sha256": "9920581442ebe5e60a7fd68b3bca9462d751e628b940de797ff53452497c9dec",
+          "unique_sequences": 19942
+        },
+        "val": {
+          "duplicate_ratio": 0.0006,
+          "duplicate_sequences": 3,
+          "label_distribution": {
+            "0": 2484,
+            "1": 2516
+          },
+          "num_samples": 5000,
+          "sequence_length": 1024,
+          "sequence_length_statistics": {
+            "max": 1024.0,
+            "mean": 843.0446166992188,
+            "min": 70.0,
+            "p50": 973.0,
+            "p95": 1024.0
+          },
+          "serialized_sha256": "0eba7bd60c54e89d5586c3dda03213013863501364dc230546ddf233f24dac52",
+          "source_sha256": "5c3a3f46729922909fe0b82daeadd4f00c95cd6ebecf548e6e5991e953ea7276",
+          "unique_sequences": 4997
+        }
+      }
+    }
+  },
+  "version": 1
+}

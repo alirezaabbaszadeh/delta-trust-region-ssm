@@ -1,0 +1,141 @@
+manifest_version: 1
+preprocess_version: v1
+source:
+  name: Long Range Arena official release import
+  reference_url: https://storage.googleapis.com/long-range-arena/lra_release
+  official_reference: https://github.com/google-research/long-range-arena
+  imported_from: local_staging/lra_official/downloads
+  imported_at_utc: '2026-02-19T00:31:33.283951+00:00'
+defaults:
+  pad_token_id: 0
+  truncation_side: right
+tasks:
+  listops:
+    num_classes: 10
+    vocab_size: 32000
+    expected_splits:
+      train:
+        num_samples: 96000
+        label_hist:
+          '0': 13776
+          '1': 9435
+          '2': 8265
+          '3': 8629
+          '4': 8813
+          '5': 8565
+          '6': 7839
+          '7': 7777
+          '8': 9106
+          '9': 13795
+      val:
+        num_samples: 2000
+        label_hist:
+          '0': 285
+          '1': 197
+          '2': 179
+          '3': 154
+          '4': 180
+          '5': 196
+          '6': 159
+          '7': 188
+          '8': 183
+          '9': 279
+      test:
+        num_samples: 2000
+        label_hist:
+          '0': 281
+          '1': 215
+          '2': 167
+          '3': 174
+          '4': 209
+          '5': 172
+          '6': 174
+          '7': 147
+          '8': 204
+          '9': 257
+    splits:
+      train:
+        path: data/raw/lra_official/listops/train.pt
+        url: ''
+        format: pt
+        sha256: 6869d68f5070d4ea16f2ab822b5e3de8fc18416fbdaab5d5456f460ca3ea2eea
+      val:
+        path: data/raw/lra_official/listops/val.pt
+        url: ''
+        format: pt
+        sha256: 52a18b39f3d66120715749345eda4a6d00a3a9066886eab3dcc80dd5b1d409ea
+      test:
+        path: data/raw/lra_official/listops/test.pt
+        url: ''
+        format: pt
+        sha256: 81f641d4c4babb31118ec886abff3ca2b32ed950b699bf42066a057d42df2425
+  text:
+    num_classes: 2
+    vocab_size: 32000
+    expected_splits:
+      train:
+        num_samples: 20000
+        label_hist:
+          '0': 10016
+          '1': 9984
+      val:
+        num_samples: 5000
+        label_hist:
+          '0': 2484
+          '1': 2516
+      test:
+        num_samples: 25000
+        label_hist:
+          '0': 12500
+          '1': 12500
+    splits:
+      train:
+        path: data/raw/lra_official/text/train.pt
+        url: ''
+        format: pt
+        sha256: f4663fa364cc277563bbed6e8afbad1a6a9c40112db7481de4b0fab5e0a53902
+      val:
+        path: data/raw/lra_official/text/val.pt
+        url: ''
+        format: pt
+        sha256: 5499e90c66d9b9fb14260d09369238ae0df9b62abaf324bb788d0453cce65af1
+      test:
+        path: data/raw/lra_official/text/test.pt
+        url: ''
+        format: pt
+        sha256: 094243071305d24bd58e63e79765da0d34cb29b3925c849dcbfc2cb4ad618753
+  pathfinder:
+    num_classes: 2
+    vocab_size: 256
+    expected_splits:
+      train:
+        num_samples: 160000
+        label_hist:
+          '0': 79976
+          '1': 80024
+      val:
+        num_samples: 20000
+        label_hist:
+          '0': 9920
+          '1': 10080
+      test:
+        num_samples: 20000
+        label_hist:
+          '0': 10054
+          '1': 9946
+    splits:
+      train:
+        path: data/raw/lra_official/pathfinder/train.pt
+        url: ''
+        format: pt
+        sha256: ca9aca9d6a094d118cba760437198fb76c4119f8118d1593a00ba4720f415268
+      val:
+        path: data/raw/lra_official/pathfinder/val.pt
+        url: ''
+        format: pt
+        sha256: 3604e474d90adec4cb2c1ca46ec64a8a6bd500020f055f5a7101e33ed4ecfec3
+      test:
+        path: data/raw/lra_official/pathfinder/test.pt
+        url: ''
+        format: pt
+        sha256: 58474b0261df52f45118b9f55ea257b9132631daa8f6b7a2226d61a4e0a8df17

@@ -1,0 +1,4 @@
+# Verified exact package from run metadata
+torch==2.10.0+cu128
+# The original server archive did not preserve a full pip freeze.
+# requirements.txt is the authoritative compatibility specification.

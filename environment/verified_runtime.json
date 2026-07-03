@@ -1,0 +1,11 @@
+{
+  "python": "3.12.3",
+  "pytorch": "2.10.0+cu128",
+  "cuda_runtime": "12.8",
+  "gpu": "NVIDIA GeForce RTX 4090",
+  "precision": "bf16",
+  "os_family": "Linux 6.8 / glibc 2.39",
+  "evidence": "system.json files in the paper artifact snapshot",
+  "full_pip_freeze_available": false,
+  "limitation": "The server archive did not contain a complete pip freeze; unrecorded transitive package versions cannot be reconstructed exactly."
+}

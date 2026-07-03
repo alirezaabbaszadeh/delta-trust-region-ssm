@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated article and archive."
+title: "Delta Trust-Region Control for Selective State Space Models"
+version: 1.0.0
+date-released: 2026-07-03
+authors:
+  - family-names: Abbaszadeh
+    given-names: Alireza
+  - family-names: Moattar
+    given-names: Mohammad Hossein
+license: MIT
+repository-code: "https://github.com/alirezaabbaszadeh/delta-trust-region-ssm"
