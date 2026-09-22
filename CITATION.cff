@@ -8,5 +8,9 @@ authors:
     given-names: Alireza
   - family-names: Moattar
     given-names: Mohammad Hossein
+  - family-names: Houshmand
+    given-names: Mahboobeh
+  - family-names: Hosseini
+    given-names: Seyyed Abed
 license: MIT
 repository-code: "https://github.com/alirezaabbaszadeh/delta-trust-region-ssm"

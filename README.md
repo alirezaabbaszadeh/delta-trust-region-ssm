@@ -6,8 +6,8 @@
 
 This repository contains the verified code, configurations, and reproducibility tools for the paper:
 > **"Measuring and Constraining Optimizer-Induced Discretization Drift in Selective State Space Models"**  
-> *Alireza Abbaszadeh, Mohammad Hossein Moattar*  
-> *Department of Computer Engineering, Mashhad Branch, Islamic Azad University, Mashhad, Iran*
+> *Alireza Abbaszadeh, Mohammad Hossein Moattar, Mahboobeh Houshmand, Seyyed Abed Hosseini*  
+> *Islamic Azad University, Mashhad Branch, Mashhad, Iran*
 
 ---
 
@@ -71,7 +71,7 @@ The frozen execution artifacts, checkpoints, dataset fingerprints, and statistic
 ```bibtex
 @article{abbaszadeh2026measuring,
   title={Measuring and Constraining Optimizer-Induced Discretization Drift in Selective State Space Models},
-  author={Abbaszadeh, Alireza and Moattar, Mohammad Hossein},
+  author={Abbaszadeh, Alireza and Moattar, Mohammad Hossein and Houshmand, Mahboobeh and Hosseini, Seyyed Abed},
   journal={Information Sciences},
   year={2026}
 }
