@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite the associated article and archive."
-title: "Delta Trust-Region Control for Selective State Space Models"
+title: "Measuring and Constraining Optimizer-Induced Discretization Drift in Selective State Space Models"
 version: 1.0.0
 date-released: 2026-07-03
 authors:
