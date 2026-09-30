@@ -1,0 +1,32 @@
+name: Reproducibility & Scientific Inquiry
+description: Inquire about experimental replication, benchmarks, or discretization drift findings.
+title: "[Repro]: "
+labels: ["reproducibility", "scientific-inquiry"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for replicating our research. Please provide details regarding the hardware, environment, and specific checkpoint or script.
+  - type: input
+    id: environment
+    attributes:
+      label: Execution Environment
+      description: OS, Python version, PyTorch version, GPU model (if applicable)
+      placeholder: e.g., Ubuntu 22.04, Python 3.11, PyTorch 2.1, NVIDIA A100
+    validations:
+      required: true
+  - type: textarea
+    id: command
+    attributes:
+      label: Command & Configuration
+      description: Exact command and arguments executed.
+      placeholder: e.g., python -m src.experiment --config configs/mamba_drift.yaml
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected vs Observed Findings
+      description: Explain the discrepancy or question regarding metrics or tables.
+    validations:
+      required: true
